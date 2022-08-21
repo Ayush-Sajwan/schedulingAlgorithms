@@ -145,31 +145,38 @@
     }
 
     #algorithm,
-#arrivalTime,
-#burstTime {
-    width: 100%;
-}
+    #arrivalTime,
+    #burstTime {
+        width: 100%;
+    }
 
-#btn {
-    width: 45%;
-}
-.process {
-    width: 20%;
-}
+    #btn {
+        width: 45%;
+    }
 
-.rtable table {
-    margin: 10px;
-    width: 90%;
-}
+    .process {
+        width: 20%;
+    }
 
-.rtable th {
-    padding: 1px;
-    border: solid 1px black;
-}
+    .rtable {
+        padding: 5px;
+        background-color: rgb(138, 147, 147);
+        width: 100%;
+    }
 
-.rtable td {
-    padding: 1px;
-    border: solid 1px black;
-}
+    .rtable table {
+        margin: 5px;
+        width: 100%;
+    }
+
+    .rtable th {
+        padding: 1px;
+        border: solid 1px black;
+    }
+
+    .rtable td {
+        padding: 1px;
+        border: solid 1px black;
+    }
 
 }
