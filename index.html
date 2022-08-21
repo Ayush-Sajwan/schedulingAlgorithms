@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Algorithms</title>
+
+    <link rel="stylesheet" href="css\home.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navcontent">
+            Scheduling Algorithms
+        </div>
+
+    </div>
+
+    <div class="input">
+        <div class="algo">
+          <label for="Algo">Select Algorithm    </label>
+            <select name="algorithm" id="algorithm">
+                <option value="FCFS"> First Come First Serve</option>
+                <option value="NonSJF">Non Preemptive SJF</option>
+                <option value="SJF">Preemptive SJF</option>
+            </select>
+        </div>
+
+
+        <div class="arrival">
+            <label for="arrivalTime">Enter Arrival Time    </label>
+            <input type="text" id="arrivalTime">
+        </div>
+
+        <div class="burst"> 
+            <label for="burstTime">Enter Burst Time    </label>
+            <input type="text" id="burstTime">
+        </div>
+
+        <div class="button">
+            <button id="btn">Calculate</button>
+        </div>
+
+    </div>
+
+    <div id="ganthead"><h2>Gantt Chart</h2></div>
+    <div class="chart">
+        <!--
+        Sample of dynamically added processes
+        <div class="process">
+            <div class="pnumber">P1</div>
+            <div class="data">0</div>
+        </div>
+    -->
+    </div>
+
+
+    <div class="rtable">
+        <h2>Resultant Table</h2>
+        <table id="result">
+    <!--Data is added dynamically-->
+        </table>
+    </div>
+
+
+
+    
+    <script src="js\home.js"></script>
+</body>
+
+</html>
