@@ -120,6 +120,7 @@
 
 .rtable table {
     border: solid 4px gold;
+    table-layout: fixed;
     margin: 10px;
     width: 70%;
 }
