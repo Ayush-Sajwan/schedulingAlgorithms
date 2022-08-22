@@ -118,7 +118,7 @@
 }
 
 .rtable table {
-    border: solid 4px gold;
+    border: solid 4px cyan;
     margin: 10px;
     border-spacing: 0px;
     width: 70%;
@@ -166,7 +166,8 @@
 
     .rtable table {
         margin: 5px;
-        width: 95%;
+        width: 100%;
+        table-layout: fixed;
     }
 
     .rtable th { 
