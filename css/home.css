@@ -116,22 +116,24 @@
     padding: 20px;
     background-color: rgb(138, 147, 147);
 
+    word-wrap: break-word;
 }
 
 .rtable table {
     border: solid 4px gold;
-    table-layout: fixed;
     margin: 10px;
+    border-spacing: 0px;
     width: 70%;
 }
 
 .rtable th {
-    padding: 3px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     border: solid 2px black;
 }
 
 .rtable td {
-    padding: 3px;
+   
     text-align: center;
     border: solid 2px black;
 }
@@ -170,13 +172,11 @@
         width: 100%;
     }
 
-    .rtable th {
-        padding: 1px;
+    .rtable th { 
         border: solid 1px black;
     }
 
-    .rtable td {
-        padding: 1px;
+    .rtable td {    
         border: solid 1px black;
     }
 
